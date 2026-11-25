@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { NextResponse } from 'next/server';
 
-// ⚠️ GANTI DENGAN URL DAN ANON KEY DARI SUPABASE ANDA ⚠️
 const supabaseUrl = 'https://lahoqpwtuhostbraoghy.supabase.co';
 const supabaseKey = 'sb_publishable_siJ6ymil4kc7nh_lom-1uQ_BzdEGIPj';
 const supabase = createClient(supabaseUrl, supabaseKey);
